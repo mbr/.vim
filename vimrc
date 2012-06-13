@@ -1,3 +1,5 @@
+" putting these into plugins did not work
+
 fun! EnsureVamIsOnDisk(vam_install_path)
   " windows users may want to use http://mawercer.de/~marc/vam/index.php
   " to fetch VAM, VAM-known-repositories and the listed plugins
@@ -13,7 +15,7 @@ fun! EnsureVamIsOnDisk(vam_install_path)
 		\"time ask maintainers to improve documentation")
     call mkdir(a:vam_install_path, 'p')
     execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '.shellescape(a:vam_install_path, 1).'/vim-addon-manager'
-    " VAM runs helptags automatically when you install or update 
+    " VAM runs helptags automatically when you install or update
     " plugins
     exec 'helptags '.fnameescape(a:vam_install_path.'/vim-addon-manager/doc')
   endif
@@ -58,3 +60,8 @@ call SetupVAM()
 " option2:  au GUIEnter * call SetupVAM()
 " See BUGS sections below [*]
 " Vim 7.0 users see BUGS section [3]
+" color scheme
+call vam#ActivateAddons(['molokai'], {'auto_install' : 0})
+
+" TextMate-style goodness
+call vam#ActivateAddons(['Command-T', 'snipmate'], {'auto_install' : 0})
