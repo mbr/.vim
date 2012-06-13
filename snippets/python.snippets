@@ -84,3 +84,19 @@ snippet ifmain
 # __magic__
 snippet _
 	__${1:init}__${2}
+
+# custom snippets start here:
+snippet flaskapp
+	from flask import Flask
+	from flask.ext.bootstrap import Bootstrap
+
+
+	def create_app(configfile=None):
+		app = Flask(__name__)
+
+		if configfile:
+			app.config.from_pyfile(configfile)
+
+		Bootstrap(app)
+
+		return app
