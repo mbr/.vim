@@ -11,3 +11,6 @@ imap <F9> <ESC>:wa<CR>:!make<CR>
 
 "" search highlighting cancel
 nnoremap <F1> :noh<return>
+
+" maybe a good idea
+nnoremap ; :
