@@ -14,3 +14,10 @@ nnoremap <F1> :noh<return>
 
 " maybe a good idea
 nnoremap ; :
+
+" buffer navigation
+:nnoremap <C-h> :tabp<cr>
+:nnoremap <C-j> :tabn<cr>
+:nnoremap <C-k> :tabp<cr>
+:nnoremap <C-l> :tabn<cr>
+:nnoremap <C-w> :tabclose<cr>
