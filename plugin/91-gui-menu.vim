@@ -1,4 +1,4 @@
-if has("gui-running")
+if has("gui_running")
 " disable toolbar and menu
   set tb=
   set guioptions=agirLt
