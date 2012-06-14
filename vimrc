@@ -68,3 +68,6 @@ call vam#ActivateAddons(['Command-T', 'snipmate'], {'auto_install' : 1})
 
 " supertab
 call vam#ActivateAddons(['github:ervandew/supertab'], {'auto_install' : 1})
+
+" python stuff
+call vam#ActivateAddons(['Syntastic'], {'auto_install': 1})
