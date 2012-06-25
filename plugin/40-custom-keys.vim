@@ -16,8 +16,10 @@ nnoremap <F1> :noh<return>
 nnoremap ; :
 
 " buffer navigation
-:nnoremap <C-h> :tabp<cr>
-:nnoremap <C-j> :tabn<cr>
-:nnoremap <C-k> :tabp<cr>
-:nnoremap <C-l> :tabn<cr>
-:nnoremap <C-w> :tabclose<cr>
+:nnoremap <C-h> <C-w>h
+:nnoremap <C-j> <C-w>j
+:nnoremap <C-k> <C-w>k
+:nnoremap <C-l> <C-w>l
+
+:nnoremap <C-Tab> :tabn<cr>
+:nnoremap <C-S-Tab> :tabp<cr>
