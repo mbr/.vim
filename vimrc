@@ -61,7 +61,7 @@ call SetupVAM()
 " See BUGS sections below [*]
 " Vim 7.0 users see BUGS section [3]
 " color scheme
-call vam#ActivateAddons(['molokai'], {'auto_install' : 0})
+call vam#ActivateAddons(['molokai'], {'auto_install' : 1})
 
 " TextMate-style goodness
 call vam#ActivateAddons(['Command-T', 'snipmate'], {'auto_install' : 1})
