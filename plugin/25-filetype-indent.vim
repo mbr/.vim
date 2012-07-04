@@ -1,3 +1,6 @@
+" enable really cool shipped indent stuff
+filetype indent on
+
 " 2 spaces indenting
 au FileType haskell,lhaskell,yaml,clevercss,rst,javascript,htmljinja,html setlocal shiftwidth=2|setlocal softtabstop=2|setlocal tabstop=2
 
