@@ -72,8 +72,8 @@ call vam#ActivateAddons(['github:ervandew/supertab'], {'auto_install' : 1})
 " python stuff
 call vam#ActivateAddons(['Syntastic'], {'auto_install': 1})
 
-" templates
-call vam#ActivateAddons(['github:mbr/vim-filenew'], {'auto_install' : 1})
+" my own plugins
+call vam#ActivateAddons(['github:mbr/vim-filenew', 'github:mbr/vim-pyre'], {'auto_install' : 1})
 
 " colors in terminal
 call vam#ActivateAddons(['CSApprox'], {'auto_install' : 1})
