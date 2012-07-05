@@ -1,5 +1,5 @@
 " map custom keys map <F4> :TlistToggle<CR>
-map <F5> :wa<CR>:!scons -Q<CR>
+map <F5> :make<CR>
 " disabled for now, enabled on filetypes
 "imap <F4> :TlistToggle<CR>
 "map <C-F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
