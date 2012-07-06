@@ -5,7 +5,7 @@ import re
 import vim
 
 
-_VIM_ESCAPE_REGEX = re.compile(r'([" \\])')
+_VIM_ESCAPE_REGEX = re.compile(r'([" \\`])')
 
 def vim_string_escape(s):
     return _VIM_ESCAPE_REGEX.sub(r'\\\1', s)
