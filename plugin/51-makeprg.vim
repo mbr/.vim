@@ -1,10 +1,12 @@
 python << endpython
 from multiprocessing import cpu_count
+
 import vim
 
+
 # append this to chdir to open file
-#\ -C\ `dirname\ %`
-vim.command(r'set makeprg=scons\ -Q\ -u\ -j%d' % cpu_count())
+set_vim_var('makeprg', "scons -Q -u -j%d -C '%%:p:h'" % cpu_count())
 endpython
 
-cab scons make
+" removed, bit troubling while debugging
+"cab scons make
