@@ -100,3 +100,10 @@ snippet flaskapp
 		Bootstrap(app)
 
 		return app
+
+snippet classname
+	self.__class__.__name__
+
+snippet __i
+	def __init__(self):
+		super(${1:classname}, self).__init__()
