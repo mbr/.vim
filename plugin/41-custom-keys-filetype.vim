@@ -14,4 +14,4 @@ def rst_headline():
 endofpython
 
 autocmd FileType vim map <buffer> <F5> :%y"<cr>:@"<cr>
-autocmd FileType rst imap <buffer> <LocalLeader><Tab> <C-o>:py rst_headline()<cr>
+autocmd FileType rst imap <buffer> <LocalLeader>h <C-o>:py rst_headline()<cr>
