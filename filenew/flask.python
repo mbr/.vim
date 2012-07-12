@@ -1,0 +1,20 @@
+###vim-file-new flask application core with flask_bootstrap ###
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from flask import Flask
+from flask.ext.bootstrap import Bootstrap
+
+import model
+from frontend import frontend
+
+def create_app():
+    app = Flask(__name__, instance_relative_config=True)
+
+    app.config.from_pyfile('application.cfg')
+
+    app.register_blueprint(frontend)
+
+    Bootstrap(app)
+
+    return app
