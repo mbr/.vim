@@ -77,3 +77,6 @@ call vam#ActivateAddons(['Command-T', 'snipmate'], {'auto_install' : 1})
 
 " colors in terminal
 call vam#ActivateAddons(['CSApprox'], {'auto_install' : 1})
+
+" git integration
+call vam#ActivateAddons(['fugitive'], {'auto_install' : 1})
