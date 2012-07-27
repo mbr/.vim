@@ -9,5 +9,5 @@ au BufRead,BufNewFile *.vala setfiletype vala
 au BufRead,BufNewFile *.vapi setfiletype vala
 au BufRead,BufNewFile *.clever setfiletype clevercss
 
-au FileType htmldjango,html,django setlocal ft=htmljinja
+au BufRead,BufNewFile templates/*.html setlocal ft=htmljinja
 au FileType scons setlocal syntax=python
