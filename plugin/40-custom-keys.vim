@@ -16,6 +16,7 @@ nnoremap <F1> :noh<return>
 
 " maybe a good idea
 nnoremap ; :
+inoremap jj <ESC>
 
 " buffer navigation
 :nnoremap <C-h> <C-w>h
