@@ -5,7 +5,7 @@ import vim
 def rst_headline():
     (lineno, col) = vim.current.window.cursor
     char = vim.current.buffer[lineno-1][col]
-    headline = vim.current.buffer[lineno-2]
+    headline = vim.current.buffer[lineno-2].decode(vim.eval('&encoding'))
     l = len(headline)
     vim.current.buffer[lineno-1] = char * l
     vim.current.buffer.append('', lineno)
