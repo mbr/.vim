@@ -61,7 +61,7 @@ call SetupVAM()
 " See BUGS sections below [*]
 " Vim 7.0 users see BUGS section [3]
 " color scheme
-call vam#ActivateAddons(['molokai'], {'auto_install' : 1})
+call vam#ActivateAddons(['molokai', 'Solarized'], {'auto_install' : 1})
 
 " supertab
 call vam#ActivateAddons(['github:ervandew/supertab'], {'auto_install' : 1})
