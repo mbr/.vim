@@ -5,6 +5,7 @@ au BufRead,BufNewFile *.txt setfiletype text
 au BufRead,BufNewFile *.vala setfiletype vala
 au BufRead,BufNewFile *.vapi setfiletype vala
 au BufRead,BufNewFile *.clever setfiletype clevercss
+au BufRead,BufNewFile *.less setfiletype less
 
 au BufRead,BufNewFile templates/*.html setlocal ft=htmljinja
 au FileType scons setlocal syntax=python
