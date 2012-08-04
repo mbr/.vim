@@ -11,5 +11,9 @@ au FileType text setlocal linebreak|setlocal showbreak=\ \
 au FileType python,rst setlocal textwidth=79|setlocal colorcolumn=79
 au FileType rst setlocal textwidth=79|setlocal colorcolumn=79
 
+" go is special
+au FileType go setlocal noexpandtab|setlocal tabstop=2|setlocal softtabstop=0|set shiftwidth=2
+
 " cleanup whitespace on save
 au BufWritePre * :%s/\s\+$//e
+au BufWritePre *.go :%! gofmt
