@@ -1,1 +1,1 @@
-/usr/local/go/misc/vim/indent/go.vim
+../GOVIM/indent/go.vim
