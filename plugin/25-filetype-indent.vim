@@ -16,4 +16,4 @@ au FileType go setlocal noexpandtab|setlocal tabstop=2|setlocal softtabstop=0|se
 
 " cleanup whitespace on save
 au BufWritePre * :%s/\s\+$//e
-au BufWritePre *.go :%! gofmt
+au BufWritePre *.go :Fmt
