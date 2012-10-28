@@ -1,1 +1,1 @@
-/usr/local/go/misc/vim/plugin/godoc.vim
+../GOVIM/plugin/godoc.vim
