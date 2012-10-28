@@ -1,3 +1,5 @@
+set secure
+set exrc
 " putting these into plugins did not work
 
 fun! EnsureVamIsOnDisk(vam_install_path)
