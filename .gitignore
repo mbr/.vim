@@ -1,2 +1,5 @@
 .netrwhist
 vim-addons
+plugin/eclim.vim
+GOVIM
+eclim/
