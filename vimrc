@@ -69,7 +69,7 @@ call vam#ActivateAddons(['molokai', 'Solarized'], {'auto_install' : 1})
 call vam#ActivateAddons(['github:ervandew/supertab'], {'auto_install' : 1})
 
 " langauge stuff
-call vam#ActivateAddons(['Syntastic', 'github:Rykka/riv.vim'], {'auto_install': 1})
+call vam#ActivateAddons(['Syntastic', 'github:Rykka/riv.vim', 'Dart'], {'auto_install': 1})
 
 " my own plugins
 call vam#ActivateAddons(['github:mbr/vim-filenew', 'github:mbr/vim-pyre'], {'auto_install' : 1})
