@@ -13,6 +13,7 @@ map <F5> :make<CR>
 
 "" search highlighting cancel
 nnoremap <F1> :noh<return>
+inoremap <F1> <C-o>:noh<return>
 
 " maybe a good idea
 nnoremap ; :
