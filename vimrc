@@ -68,6 +68,9 @@ call vam#ActivateAddons(['molokai', 'Solarized'], {'auto_install' : 1})
 " supertab
 call vam#ActivateAddons(['github:ervandew/supertab'], {'auto_install' : 1})
 
+" completion popup
+call vam#ActivateAddons(['AutoComplPop'], {'auto_install': 1})
+
 " langauge stuff
 call vam#ActivateAddons(['Syntastic', 'github:Rykka/riv.vim', 'Dart', 'vim-coffee-script'], {'auto_install': 1})
 
