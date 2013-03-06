@@ -1,11 +1,11 @@
 set expandtab
 
-" set the width of a tabstop to 4
-set tabstop=4
+" set the width of a tabstop to 2
+set tabstop=2
 
-" set auto-indenting to 4 space
-set softtabstop=4
-set shiftwidth=4
+" set auto-indenting to 2 spaces
+set softtabstop=2
+set shiftwidth=2
 
 " enable auto-indent
 set autoindent

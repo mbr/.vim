@@ -2,7 +2,7 @@
 filetype indent on
 
 " 2 spaces indenting
-au FileType haskell,lhaskell,yaml,clevercss,css,less,rst,javascript,htmljinja,html,htmldjango setlocal shiftwidth=2|setlocal softtabstop=2|setlocal tabstop=2
+"au FileType haskell,lhaskell,yaml,clevercss,css,less,rst,javascript,htmljinja,html,htmldjango setlocal shiftwidth=2|setlocal softtabstop=2|setlocal tabstop=2
 
 au FileType tex,latex setlocal linebreak
 au FileType text setlocal linebreak|setlocal showbreak=\ \
