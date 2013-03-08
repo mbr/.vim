@@ -4,6 +4,9 @@ filetype indent on
 " 2 spaces indenting
 "au FileType haskell,lhaskell,yaml,clevercss,css,less,rst,javascript,htmljinja,html,htmldjango setlocal shiftwidth=2|setlocal softtabstop=2|setlocal tabstop=2
 
+" 4 space indenting
+au FileType python,scons setlocal shiftwidth=4|setlocal softtabstop=4|setlocal tabstop=4
+
 au FileType tex,latex setlocal linebreak
 au FileType text setlocal linebreak|setlocal showbreak=\ \
 
