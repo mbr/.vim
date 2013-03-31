@@ -20,3 +20,5 @@ au FileType go setlocal noexpandtab|setlocal tabstop=2|setlocal softtabstop=0|se
 " cleanup whitespace on save
 au BufWritePre * :%s/\s\+$//e
 au BufWritePre *.go :Fmt
+
+au BufWritePre *.html silent! :1,$!html-beautify -f - -s 2 -W 0
