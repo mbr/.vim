@@ -1,0 +1,7 @@
+###vim-file-new Web development
+import os
+
+env = Environment(
+  tools=['web'],
+  env=os.environ,
+)

@@ -1,0 +1,9 @@
+% ###vim-file-new KOMA-Script XeTeX Artikel-Klasse
+\documentclass[12pt, a4paper]{scrartcl}
+\usepackage{fontspec}
+\setromanfont[Mapping=tex-text]{Linux Libertine}
+\setsansfont[Mapping=tex-text]{Linux Biolinum}
+\setmonofont[Mapping=tex-text]{Inconsolata}
+\begin{document}
+
+\end{document}

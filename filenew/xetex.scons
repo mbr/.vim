@@ -1,0 +1,6 @@
+###vim-file-new Building latex with XeTex
+env = Environment(
+ PDFLATEX='xelatex',
+)
+
+env.PDF('.latex')
