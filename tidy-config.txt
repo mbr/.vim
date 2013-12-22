@@ -1,0 +1,12 @@
+coerce-endtags: no
+drop-empty-elements: no
+drop-empty-paras: no
+indent: auto
+indent-spaces: 2
+quiet: yes
+clean: no
+bare: no
+numeric: no
+asxhtml: no
+ashtml: no
+markup: no
