@@ -107,3 +107,10 @@ snippet classname
 snippet __i
 	def __init__(self):
 		super(${1:classname}, self).__init__()
+
+snippet pdb
+	import pdb; pdb.set_trace()
+
+snippet __exit
+	def __exit__(self, exc_type, exc_value, traceback):
+		${1:pass}
